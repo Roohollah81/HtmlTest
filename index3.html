@@ -3,6 +3,14 @@
 <head>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <style>
+        .body {
+            width: 360px;
+            height: 600px;
+            border: 0.1px solid red;
+            margin: 0;
+            padding: 0px;
+        }
+
         div.surati {
             background-color: rgb(252, 75, 129);
             border-top-left-radius: 70px;
@@ -166,6 +174,14 @@
             font-size: 18px;
         }
 
+        div.Zara {
+            position: fixed;
+            top: 380px;
+            left: 95px;
+            font-family: calibri;
+            font-size: 18px;
+        }
+
         p.Amazon {
             position: fixed;
             color: gray;
@@ -173,17 +189,22 @@
             left: 95px;
         }
 
-        .body {
-            width: 360px;
-            height: 600px;
-            border: 0.1px solid red;
-            margin: 0;
-            padding: 0px;
+        p.Zara {
+            position: fixed;
+            color: gray;
+            top: 390px;
+            left: 95px;
         }
 
-        img {
+        img.Amazon {
             position: fixed;
             top: 300px;
+            left: 40px;
+        }
+
+        img.Zara {
+            position: fixed;
+            top: 370px;
             left: 40px;
         }
 
@@ -193,12 +214,64 @@
             color: rgb(129, 130, 132);
         }
 
-        div.Amazonline {
+        div.line1 {
             position: fixed;
             top: 370px;
             left: 45px;
             width: 275px;
             border-bottom: 1.5px solid rgb(224, 224, 224);
+        }
+
+        div.line2 {
+            position: fixed;
+            top: 450px;
+            left: 45px;
+            width: 275px;
+            border-bottom: 1.5px solid rgb(224, 224, 224);
+        }
+
+        div.end {
+            position: fixed;
+            top: 520px;
+            left: 45px;
+            font-family: calibri;
+            font-size: large;
+        }
+
+        div.line3 {
+            position: fixed;
+            top: 550px;
+            left: 45px;
+            width: 265px;
+            border-bottom: 2px solid rgb(255, 228, 108);
+        }
+
+        ul.footer {
+            list-style-type: none;
+            position: fixed;
+            top: 550px;
+            padding: 0;
+            margin: 8;
+        }
+
+        li.footer {
+            float: left;
+            padding: 10px 35px;
+            margin: 0px;
+            ;
+            font-family: calibri;
+            font-size: large;
+        }
+
+        div.sefid {
+            background-color: rgb(255, 255, 255);
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            width: 360;
+            height: 100px;
+            position: fixed;
+            top: 500px;
+            left: 0;
         }
     </style>
 </head>
@@ -210,7 +283,6 @@
         <h3 class="textA">Hi Elaheh</h3>
         <p class="textB">We provide a list of<br>challenges related to the</p>
     </div>
-    <div class="sefid"></div>
     <div class="surati"></div>
     <div class="zard"><i class="material-icons"
             style="padding-left: 50px; padding-top: 10px; color: white; font-size: 17px;">clear</i></div>
@@ -232,11 +304,24 @@
     </div>
     <div class="Amazon"><i class="material-icons">chevron_right</i>Amazon</div>
     <p class="Amazon">100 Challenges<br>Total Qoints 50-500</p>
-    <img src="https://cdn3.iconfinder.com/data/icons/glypho-social-and-other-logos/64/logo-amazon-512.png"
+    <img class="Amazon"
+        src="https://cdn3.iconfinder.com/data/icons/glypho-social-and-other-logos/64/logo-amazon-512.png"
         style="width: 50px;">
-    <div class="Amazonline"></div>
-
-
+    <div class="line1"></div>
+    <div class="Zara"><i class="material-icons">chevron_right</i>Zara</div>
+    <p class="Zara">80 Challenges<br>Total Qoints 50-400</p>
+    <img class="Zara" src="https://cdn.iconscout.com/icon/free/png-512/zara-3215529-2673947.png" style="width: 50px;">
+    <div class="line2"></div>
+    <div class="sefid"></div>
+    <div class="end">Your total Qoints: <b>1250</b></div>
+    <div class="line3"></div>
+    <ul class="footer">
+        <li class="footer">Home</li>
+        <li class="footer">Search</li>
+        <li class="footer">Profile</li>
+    </ul>
+    
+    
 </body>
 
 </html>
