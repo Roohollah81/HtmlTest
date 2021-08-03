@@ -2,6 +2,7 @@
 
 <head>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <style>
         .body {
             width: 360px;
@@ -60,7 +61,7 @@
 
         }
 
-        .textA {
+        .texthead {
             font-family: Calibri;
             position: absolute;
             left: 35px;
@@ -90,19 +91,34 @@
         ul.radif1 {
             list-style-type: none;
             position: fixed;
-            font-size: 13px;
-            top: 150px;
-            left: 0px;
-            border-bottom: 1.5px solid gray;
-            margin: 0px;
-            padding: 10px;
-            width: 340px;
+            top: 130px;
+            left: 65px;
+            padding: 15px;
+            color: rgb(224, 224, 224);
         }
 
         li.radif1 {
             float: left;
             font-family: Arial, Helvetica, sans-serif;
             padding: 0px 30px;
+            font-size: 12.5px;
+        }
+
+        div.line0 {
+            position: fixed;
+            top: 190px;
+            left: 0px;
+            width: 360px;
+            border-bottom: 2px solid rgb(224, 224, 224);
+        }
+
+        div.BYstore {
+            position: fixed;
+            top: 165px;
+            left: 209px;
+            height: 24px;
+            width: 55px;
+            border-bottom: 3px solid rgb(251, 75, 128, 0.7);
         }
 
         ul.radif2 {
@@ -208,7 +224,7 @@
             left: 40px;
         }
 
-        .material-icons {
+        .icon2 {
             position: absolute;
             left: 210px;
             color: rgb(129, 130, 132);
@@ -273,6 +289,11 @@
             top: 500px;
             left: 0;
         }
+
+        i.material-icons {
+            position: fixed;
+            left: 305px;
+        }
     </style>
 </head>
 
@@ -280,17 +301,19 @@
     <div class="banafsh"></div>
     <div class="sabz"></div>
     <div class="golbehi">
-        <h3 class="textA">Hi Elaheh</h3>
+        <h3 class="texthead">Hi Elaheh</h3>
         <p class="textB">We provide a list of<br>challenges related to the</p>
     </div>
     <div class="surati"></div>
     <div class="zard"><i class="material-icons"
-            style="padding-left: 50px; padding-top: 10px; color: white; font-size: 17px;">clear</i></div>
+            style="padding-left: 25px; padding-top: 10px; color: white; font-size: 17px;">clear</i></div>
     <ul class="radif1">
         <li class="radif1">By Tag</li>
-        <li class="radif1">By Store</li>
+        <li class="radif1" style="font-weight: bold; color: black;">By Store</li>
         <li class="radif1">By Affili</li>
     </ul>
+    <div class="line0"></div>
+    <div class="BYstore"></div>
     <ul class="radif2">
         <li class="radif2">Trend</li>
         <li class="radif2">Followed</li>
@@ -320,8 +343,7 @@
         <li class="footer">Search</li>
         <li class="footer">Profile</li>
     </ul>
-    
-    
+
 </body>
 
 </html>
