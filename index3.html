@@ -2,7 +2,12 @@
 
 <head>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <style>
         .body {
             width: 360px;
@@ -10,6 +15,7 @@
             border: 0.1px solid gray;
             margin: 0px;
         }
+
 
         div.surati {
             background-color: rgb(252, 75, 129);
@@ -57,22 +63,22 @@
             position: fixed;
             left: 0px;
             top: 55px;
-
-        }  
+        }
 
         .texthead {
             font-family: 'Roboto', sans-serif;
+            font-size: 20px;
             position: absolute;
             left: 35px;
             top: -5px;
-            
         }
 
         .textB {
-            font-family: Calibri;
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
             position: absolute;
             left: 35px;
-            top: 25px;
+            top: 30px;
             color: rgb(107, 97, 105);
         }
 
@@ -90,17 +96,17 @@
         ul.radif1 {
             list-style-type: none;
             position: fixed;
-            top: 130px;
-            left: 65px;
-            padding: 15px;
+            top: 135px;
+            left: 82px;
+            padding: 10px;
             color: rgb(224, 224, 224);
         }
 
         li.radif1 {
             float: left;
             font-family: 'Roboto', sans-serif;
-            padding: 0px 30px;
-            font-size: 12.5px;
+            padding: 0px 25px;
+            font-size: 14px;
         }
 
         div.line00 {
@@ -111,7 +117,7 @@
             border-bottom: 2px solid rgb(224, 224, 224);
         }
 
-        div.BYstore {
+        div.BYstoreline {
             position: fixed;
             top: 165px;
             left: 208px;
@@ -124,16 +130,16 @@
             list-style-type: none;
             position: fixed;
             top: 187px;
-            left: 0px;
+            left: 15px;
             padding: 5px;
             color: rgb(224, 224, 224);
         }
 
         li.radif2 {
             float: left;
-            font-family: Arial, Helvetica, sans-serif;
-            padding: 0px 40px;
-            font-size: 11.5px;
+            font-family: 'Roboto', sans-serif;
+            padding: 0px 35px;
+            font-size: 12px;
         }
 
         div.line0 {
@@ -144,10 +150,10 @@
             border-bottom: 2px solid rgb(224, 224, 224);
         }
 
-        div.Trend {
+        div.Trendline {
             position: fixed;
             top: 210px;
-            left: 38px;
+            left: 45px;
             height: 24px;
             width: 55px;
             border-bottom: 3px solid rgb(26, 129, 120, 0.7);
@@ -160,7 +166,7 @@
             width: 270px;
             height: 28px;
             border-radius: 20px 0px 20px 20px;
-            border: 1px solid rgb(70, 88, 167);
+            border: 1.5px solid rgb(70, 88, 167);
 
         }
 
@@ -168,11 +174,10 @@
             color: black;
             text-align: end;
             font-family: 'Roboto', sans-serif;
-            font-weight: bold;
-            font-size: 13px;
+            font-size: 14px;
             position: absolute;
             left: 175px;
-            top: -7px;
+            top: -8px;
         }
 
         div.CHALLENGE {
@@ -192,24 +197,15 @@
             color: white;
             text-align: end;
             font-family: 'Roboto', sans-serif;
-            font-weight: bold;
-            font-size: 13px;
+            font-size: 14px;
             position: absolute;
             left: 30px;
-            top: -7px;
+            top: -8px;
         }
 
         div.Amazon {
             position: fixed;
-            top: 310px;
-            left: 95px;
-            font-family: calibri;
-            font-size: 18px;
-        }
-
-        div.Zara {
-            position: fixed;
-            top: 390px;
+            top: 320px;
             left: 95px;
             font-family: calibri;
             font-size: 18px;
@@ -221,8 +217,30 @@
             line-height: 1.3;
             position: fixed;
             color: gray;
-            top: 323px;
+            top: 331px;
             left: 95px;
+        }
+
+        img.Amazon {
+            position: fixed;
+            top: 318px;
+            left: 40px;
+        }
+
+        div.Amazonline {
+            position: fixed;
+            top: 395px;
+            left: 45px;
+            width: 275px;
+            border-bottom: 1.5px solid rgb(224, 224, 224);
+        }
+
+        div.Zara {
+            position: fixed;
+            top: 410px;
+            left: 95px;
+            font-family: calibri;
+            font-size: 18px;
         }
 
         p.Zara {
@@ -231,50 +249,35 @@
             line-height: 1.3;
             position: fixed;
             color: gray;
-            top: 401px;
+            top: 425px;
             left: 95px;
-        }
-
-        img.Amazon {
-            position: fixed;
-            top: 310px;
-            left: 40px;
         }
 
         img.Zara {
             position: fixed;
-            top: 390px;
+            top: 412px;
             left: 44px;
             border-radius: 50%;
             background-color: rgb(241, 241, 241);
-
         }
 
-        div.line1 {
+        div.Zaraline {
             position: fixed;
-            top: 380px;
+            top: 490px;
             left: 45px;
             width: 275px;
             border-bottom: 1.5px solid rgb(224, 224, 224);
         }
 
-        div.line2 {
-            position: fixed;
-            top: 460px;
-            left: 45px;
-            width: 275px;
-            border-bottom: 1.5px solid rgb(224, 224, 224);
-        }
-
-        div.end {
+        div.textfooter {
             position: fixed;
             top: 520px;
             left: 45px;
-            font-family: Calibri;
-            font-size: large;
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
         }
 
-        div.line3 {
+        div.footerline {
             position: fixed;
             top: 550px;
             left: 45px;
@@ -285,44 +288,30 @@
         ul.footer {
             list-style-type: none;
             position: fixed;
-            top: 550px;
+            top: 552px;
             padding: 0;
             margin: 8;
-            left: 5px;
-
+            left: 9px;
         }
 
         li.footer {
             float: left;
             padding: 10px 36px;
-            font-size: 15;
+            font-size: 14;
             margin: 0px;
             font-family: 'Roboto', sans-serif;
             color: rgb(224, 224, 224);
         }
 
-        div.Home {
+        div.Homeline {
             position: fixed;
             top: 572;
-            left: 40px;
+            left: 45px;
             height: 26px;
-            width: 60px;
+            width: 57px;
             border-bottom: 3.5px solid rgb(255, 228, 108);
-
         }
 
-        /*
-        div.sefid {
-            background-color: rgb(255, 255, 255);
-            border-bottom-left-radius: 30px;
-            border-bottom-right-radius: 30px;
-            width: 360;
-            height: 100px;
-            position: fixed;
-            top: 500px;
-            left: 0;
-        }
-        */
         i.material-icons {
             position: fixed;
             left: 305px;
@@ -343,18 +332,18 @@
             style="padding-left: 25px; padding-top: 10px; color: white; font-size: 17px;">clear</i></div>
     <ul class="radif1">
         <li class="radif1">By Tag</li>
-        <li class="radif1" style="font-weight: bold; color: black;">By Store</li>
+        <li class="radif1" style="color: black;">By Store</li>
         <li class="radif1">By Affili</li>
     </ul>
     <div class="line00"></div>
-    <div class="BYstore"></div>
+    <div class="BYstoreline"></div>
     <ul class="radif2">
-        <li class="radif2" style="font-weight: bold; color: black; letter-spacing: 2px;">Trend</li>
+        <li class="radif2" style="color: black; letter-spacing: 1px;">Trend</li>
         <li class="radif2">Followed</li>
         <li class="radif2">Sponsored</li>
     </ul>
     <div class="line0"></div>
-    <div class="Trend"></div>
+    <div class="Trendline"></div>
     <div class="REWARD">
         <p class="reward">REWARD</p>
     </div>
@@ -366,21 +355,20 @@
     <img class="Amazon"
         src="https://cdn3.iconfinder.com/data/icons/glypho-social-and-other-logos/64/logo-amazon-512.png"
         style="width: 50px;">
-    <div class="line1"></div>
+    <div class="Amazonline"></div>
     <div class="Zara"><i class="material-icons">chevron_right</i>Zara</div>
     <p class="Zara">80 Challenges<br>Total Qoints 50-400</p>
     <img class="Zara" src="https://cdn.iconscout.com/icon/free/png-512/zara-3215529-2673947.png"
         style="width: 40px; height: 40px;">
-    <div class="line2"></div>
-    <div class="sefid"></div>
-    <div class="end">Your total Qoints: <b>1250</b></div>
-    <div class="line3"></div>
+    <div class="zaraline"></div>
+    <div class="textfooter">Your total Qoints: 1250</div>
+    <div class="footerline"></div>
     <ul class="footer">
-        <li class="footer" style="color: black; font-weight: bold; font-size: 15px;">Home</li>
+        <li class="footer" style="color: black;">Home</li>
         <li class="footer">Search</li>
         <li class="footer">Profile</li>
     </ul>
-    <div class="Home"></div>
+    <div class="Homeline"></div>
 
 </body>
 
